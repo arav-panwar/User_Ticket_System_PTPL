@@ -1,0 +1,199 @@
+/* Global Reset */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+/* Navbar */
+
+.navbar{
+background:#1e293b;
+color:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin-left:15px;
+padding:6px 12px;
+border-radius:4px;
+transition:0.3s;
+}
+
+.navbar a:hover{
+background:#334155;
+}
+
+/* Container */
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+margin-top:40px;
+}
+
+/* Cards */
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+
+h2{
+margin-bottom:15px;
+}
+
+/* Tables */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+background:white;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 3px 8px rgba(0,0,0,0.08);
+}
+
+th{
+background:#2563eb;
+color:white;
+padding:12px;
+text-align:left;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#f1f5f9;
+}
+
+/* Buttons */
+
+.btn{
+background:#2563eb;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+font-size:14px;
+transition:0.2s;
+}
+
+.btn:hover{
+background:#1d4ed8;
+}
+
+/* Links styled like buttons */
+
+a.btn{
+text-decoration:none;
+display:inline-block;
+}
+
+/* Form */
+
+.form-box{
+max-width:500px;
+margin:auto;
+}
+
+label{
+font-weight:600;
+}
+
+input,
+select,
+textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+border-radius:6px;
+border:1px solid #ccc;
+font-size:14px;
+transition:0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+border-color:#2563eb;
+outline:none;
+}
+
+/* Ticket Status Colors */
+
+.status-open{
+background:#3b82f6;
+color:white;
+padding:4px 8px;
+border-radius:4px;
+font-size:12px;
+}
+
+.status-progress{
+background:#f59e0b;
+color:white;
+padding:4px 8px;
+border-radius:4px;
+font-size:12px;
+}
+
+.status-resolved{
+background:#10b981;
+color:white;
+padding:4px 8px;
+border-radius:4px;
+font-size:12px;
+}
+
+.status-closed{
+background:#6b7280;
+color:white;
+padding:4px 8px;
+border-radius:4px;
+font-size:12px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.container{
+width:95%;
+}
+
+table{
+font-size:14px;
+}
+
+}
