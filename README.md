@@ -16,8 +16,7 @@ This application allows users to raise support tickets and enables administrator
 ---
 
 ## Features
-      |
-      V
+
 ### User Module
 
 * User Registration & Login
